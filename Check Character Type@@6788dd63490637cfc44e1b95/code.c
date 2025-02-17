@@ -4,17 +4,16 @@
 int main() {
     char a;
     scanf("%c", &a); 
-    if (tolower(a) == 'a' || tolower(a) == 'e' || tolower(a) == 'i' || 
-        tolower(a) == 'o' || tolower(a) == 'u') {
+    if (tolower(a)==a || tolower(a)==e || tolower(a)==i tolower(a)==o tolower(a)==u){
         printf("Vowel");
     }
-    else if (isalpha(a)) {
+    else if(isconsonant(a)){
         printf("Consonant");
     }
-    else if (isdigit(a)) {
+    else if(isdigit(a)){
         printf("Digit");
     }
-    else {
+    else{
         printf("Special Character");
     }
 
