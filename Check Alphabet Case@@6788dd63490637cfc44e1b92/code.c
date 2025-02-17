@@ -10,9 +10,8 @@ int main(){
     else if(islower(a)){
         printf("Lowercase");
     }
-    else {
+    else{
         printf("Not an alphabet");
     }
-
     return 0;
 }
