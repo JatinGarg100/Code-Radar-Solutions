@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int isprime(int n){
-    if(i<2){
+    if(n<2){
         return 0;
     }
     for(int i=2,i*i<=n,i++){
