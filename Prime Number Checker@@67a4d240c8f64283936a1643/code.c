@@ -8,14 +8,14 @@ int isprime(int n){
         if(n%i==0){
             return 0;
         }
-        return 1;
     }
+    return 1;
 }
 
 int main(){
     int n;
     scanf("%d",&n);
-    if(isprime){
+    if(isprime(n)){
         printf("1");
     }
     else{
