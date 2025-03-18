@@ -12,8 +12,8 @@ int main(){
             a=0;
         }
         for(int j=1;j<=i;j++){
-            printf("%d",a);
-            if(a=1){
+            printf("%d ",a);
+            if(a==1){
                 a=0;
             }
             else{
