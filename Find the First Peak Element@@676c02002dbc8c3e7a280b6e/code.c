@@ -19,7 +19,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int peakindex=firstPeak(arr,n)
-    if(peakindex!=0){
+    if(peakindex!=-1){
         printf("%d",arr[peakindex]);
     }
     else{
