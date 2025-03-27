@@ -25,10 +25,6 @@ int main(){
       
         
     }
-    if(d==n)
-    {
-        printf("-1");
-    }
-    
+   
     return 0;
 }
