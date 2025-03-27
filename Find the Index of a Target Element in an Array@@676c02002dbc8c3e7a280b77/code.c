@@ -15,6 +15,9 @@ int main(){
             c=i;
             printf("%d",c);
         }
+        if(arr[i]!=x){
+            printf("-1");
+        }
         
     }
     
