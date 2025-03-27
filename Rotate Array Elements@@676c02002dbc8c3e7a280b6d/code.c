@@ -13,9 +13,10 @@ void reverse(int arr[],int a, int b){
 }
 int main(){
     int n;
+    scanf("%d",&n)
     int arr[n];
     for(int i=0;i<n;i++){
-        scanf("%d",&n);
+        scanf("%d",&arr[i]);
     }
     int k=k%n;
     reverse(arr,0,n-1);
