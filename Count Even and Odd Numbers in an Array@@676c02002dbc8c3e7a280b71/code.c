@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-void evenodd(int arr,int size;int *evencount,int *oddcount){
+void evenodd(int arr[],int size;int *evencount,int *oddcount){
     *evencount=*oddcount=0;
     for(int i=0;i<size;i++){
         if(arr[i]%2==0){
