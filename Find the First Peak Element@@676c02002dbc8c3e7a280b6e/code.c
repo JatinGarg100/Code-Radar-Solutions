@@ -23,4 +23,7 @@ int main(){
     if(peakindex!=-1){
         printf("%d",arr[peakindex]);
     }
+    else{
+        printf("-1");
+    }
 }
