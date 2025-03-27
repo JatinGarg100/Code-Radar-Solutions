@@ -9,7 +9,8 @@ int firstPeak(int arr[],int n){
             return i;
         }
     }
-    if (arr[n - 1] > arr[n - 2]) return -1;
+    if (arr[n - 1] > arr[n - 2]) return n-1;
+    return -1;
 }
 int main(){
     int n;
@@ -21,8 +22,5 @@ int main(){
     int peakindex=firstPeak(arr,n);
     if(peakindex!=-1){
         printf("%d",arr[peakindex]);
-    }
-    else{
-        printf("-1");
     }
 }
