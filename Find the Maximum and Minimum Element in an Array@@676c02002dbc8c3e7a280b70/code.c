@@ -2,7 +2,7 @@
 
 void findMaxMin(int arr[],int size,int *max,int *min){
     *max=*min=arr[0];
-    for(int i=0;i<n;i++){
+    for(int i=0;i<size;i++){
     if(arr[i]> *max){
         *max=arr[i];
     }
