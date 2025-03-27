@@ -1,16 +1,14 @@
 #include<stdio.h>
 
-int firstPeak(int arr[],n){
+int firstPeak(int arr[],int n){
     if(n==1){
-        return 1;
+        return 0;
     }
-    for(int i=0;i<n;i++){
+    for(int i=1;i<n-1;i++){
         if(arr[i]>arr[i-1] && arr[i]>arr[i+1]){
-            return 1;;
+            return i;
         }
-        else{
-            return 0;
-        }
+        
     }
 }
 int main(){
@@ -20,7 +18,11 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    if(firstPeak(arr,n)){
-        printf("%d",arr[i]);
+    int peakindex=firstPeak(arr,n)
+    if(peakindex!=0){
+        printf("%d",arr[peakindex]);
+    }
+    else{
+        printf("No peak element is found");
     }
 }
