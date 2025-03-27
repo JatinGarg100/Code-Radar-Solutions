@@ -8,11 +8,8 @@ int firstPeak(int arr[],int n){
         if(arr[i]>arr[i-1] && arr[i]>arr[i+1]){
             return i;
         }
-        else if(arr[i]>arr[i-1] && arr[i]==arr[i+1]){
-            return -1;
-        }
-        
     }
+    if (arr[n - 1] > arr[n - 2]) return -1;
 }
 int main(){
     int n;
