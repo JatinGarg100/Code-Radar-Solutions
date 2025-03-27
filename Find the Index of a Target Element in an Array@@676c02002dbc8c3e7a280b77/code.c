@@ -20,7 +20,7 @@ int main(){
       
         
     }
-    if(d=n)
+    if(d==n)
     {
         printf("-1");
     }
