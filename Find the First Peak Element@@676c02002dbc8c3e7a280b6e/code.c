@@ -18,7 +18,7 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int peakindex=firstPeak(arr,n)
+    int peakindex=firstPeak(arr,n);
     if(peakindex!=-1){
         printf("%d",arr[peakindex]);
     }
