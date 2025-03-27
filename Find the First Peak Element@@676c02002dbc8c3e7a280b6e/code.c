@@ -23,6 +23,6 @@ int main(){
         printf("%d",arr[peakindex]);
     }
     else{
-        printf("No peak element is found");
+        printf("-1");
     }
 }
