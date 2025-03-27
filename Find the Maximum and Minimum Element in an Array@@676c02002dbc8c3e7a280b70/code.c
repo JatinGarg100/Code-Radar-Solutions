@@ -1,12 +1,14 @@
 #include<stdio.h>
 
-void findMaxMin(int arr[n],int size,int *max,int *min){
+void findMaxMin(int arr[],int size,int *max,int *min){
     *max=*min=arr[0];
+    for(int i=0;i<n;i++){
     if(arr[i]> *max){
         *max=arr[i];
     }
     if(arr[i]< *min){
         *min=arr[i];
+    }
     }
 }
 int main(){
