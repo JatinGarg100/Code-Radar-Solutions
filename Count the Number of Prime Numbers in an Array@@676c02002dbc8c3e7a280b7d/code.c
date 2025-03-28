@@ -15,7 +15,7 @@ void main()
         {
             count=0;
         }
-        else if{
+        else{
             for(int i=2;i<n;i++)
             {
                 if(a[i]!=2 && a[i]%i==0)
