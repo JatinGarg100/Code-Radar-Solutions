@@ -1,7 +1,7 @@
 #include<stdio.h>
 void findsecondLargest(int arr[],int n){
     if(n<2){
-        printf("not enough numbers");
+        printf("-1");
     }
     int largest=arr[0];
     int secondlargset=1214783648;
