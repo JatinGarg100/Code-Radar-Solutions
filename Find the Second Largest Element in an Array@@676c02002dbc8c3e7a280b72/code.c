@@ -14,7 +14,12 @@ void secondLargest(int arr[],int n){
             secondLargest=arr[i];
         }
     }
-    printf("%d",secondlargset);
+    if(secondlargset!=-2147483648){
+        printf("Not found");
+    }
+    else{
+        printf("%d",secondlargset);
+    }
 }
 int main(){
     int n;
