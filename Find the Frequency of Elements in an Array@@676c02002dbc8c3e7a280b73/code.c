@@ -15,7 +15,7 @@ void FindFrquency(int arr[],int size){
             checked[j]=1;
             }
         }
-        printf("%d %d",arr[i],count);
+        printf("%d %d\n",arr[i],count);
 
     }
 }
