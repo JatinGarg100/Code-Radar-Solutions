@@ -14,7 +14,7 @@ void findsecondLargest(int arr[],int n){
             secondlargset=arr[i];
         }
     }
-    if(secondlargset!=-2147483648){
+    if(secondlargset==-2147483648){
         printf("Not found");
     }
     else{
