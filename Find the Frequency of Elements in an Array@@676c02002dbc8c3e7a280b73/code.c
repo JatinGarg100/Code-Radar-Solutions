@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-void FindFrequency(int arr,int size){
+void FindFrequency(int arr[],int size){
     int checked[size];
     for(int i=0;i<size;i++){
         checked[i]=0;
