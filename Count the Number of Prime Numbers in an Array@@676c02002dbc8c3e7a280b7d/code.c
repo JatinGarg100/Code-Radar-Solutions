@@ -3,7 +3,7 @@ int isPrime(int num){
     if(num<2) return 0;
     if(num==2) return 1;
     if(num%2==0) return 0;
-    for(int i=3;i*i<num;i++){
+    for(int i=3;i*i<=num;i++){
         if(num%i==0){
             return 0;
         }
@@ -13,7 +13,7 @@ int isPrime(int num){
 }
 int countPrime(int arr[],int size){
     int count=0;
-    for(int i=0;i*i<size;i++){
+    for(int i=0;i<size;i++){
         if(isPrime(arr[i])){
             count++;
         }
