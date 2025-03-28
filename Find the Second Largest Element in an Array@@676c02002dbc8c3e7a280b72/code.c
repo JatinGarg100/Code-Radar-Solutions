@@ -14,7 +14,7 @@ void secondLargest(int arr[],int n){
             secondLargest=arr[i];
         }
     }
-    printf("%d",arr[i]);
+    printf("%d",secondlargset);
 }
 int main(){
     int n;
