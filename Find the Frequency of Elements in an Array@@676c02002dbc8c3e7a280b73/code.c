@@ -1,21 +1,22 @@
 #include<stdio.h>
 void FindFrquency(int arr[],int size){
     int checked[size];
-    for(int i=0;i<n;i++){
+    for(int i=0;i<size;i++){
         checked[i]=0;
     }
-    for(int i=0;i<n;i++){
+    for(int i=0;i<size;i++){
         if(checked[i]==1){
             continue;
         }
         int count=1;
-        for(int j=i+1;j<n;j++){
+        for(int j=i+1;j<size;j++){
             if(arr[i]==arr[j]){
             count++;
             checked[j]=1;
             }
-            printf("%d %d",arr[i],count);
         }
+        printf("%d %d",arr[i],count);
+
     }
 }
     
