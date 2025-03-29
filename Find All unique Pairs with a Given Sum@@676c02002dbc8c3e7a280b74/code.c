@@ -6,8 +6,8 @@ void findPairs(int arr[],int n,int value){
                 printf("%d %d",arr[i],arr[j]);
             }
         }
-        printf("\n");
     }
+    printf("\n");
 }
 int main(){
     int n;
