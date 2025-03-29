@@ -18,7 +18,7 @@ int main(){
     }
     int x;
     scanf("%d",&x);
-    result=countGreater(arr,n,x);
+    int result=countGreater(arr,n,x);
     printf("%d",result);
     return 0;
 }
