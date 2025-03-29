@@ -4,7 +4,7 @@
 
 void minimumDifference(int arr[],int n){
     if(n<2){
-        printf("array should have at least two elements");
+        printf("-1");
         return;
     }
     int mindiff=INT_MAX;
