@@ -7,8 +7,8 @@ void findleaders(int arr[],int size){
             maxright=arr[i];
             printf("%d",maxright);
         }
-        printf("\n");
     }
+    printf("\n");
 }
 int main(){
     int n;
