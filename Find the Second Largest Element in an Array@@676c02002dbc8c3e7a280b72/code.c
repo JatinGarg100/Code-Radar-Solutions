@@ -4,7 +4,7 @@ void findsecondLargest(int arr[],int n){
         printf("-1");
     }
     int largest=arr[0];
-    int secondlargset=1214783648;
+    int secondlargset=-214783648;
     for(int i=1;i<n;i++){
         if(arr[i]>largest){
             secondlargset=largest;
