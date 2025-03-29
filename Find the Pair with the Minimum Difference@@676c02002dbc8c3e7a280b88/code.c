@@ -19,7 +19,12 @@ void minimumDifference(int arr[],int n){
             }
         }
     }
-    printf("%d %d",num2,num1);
+    if(num2>num1){
+        printf("%d %d",num1,num2);
+    }
+    else{
+        printf("%d %d",num2,num1);
+    }
 }
 int main(){
     int n;
