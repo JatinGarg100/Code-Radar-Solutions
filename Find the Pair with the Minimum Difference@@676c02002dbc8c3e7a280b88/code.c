@@ -19,7 +19,7 @@ void minimumDifference(int arr[],int n){
             }
         }
     }
-    printf("%d %d",num1,num2);
+    printf("%d %d",num2,num1);
 }
 int main(){
     int n;
