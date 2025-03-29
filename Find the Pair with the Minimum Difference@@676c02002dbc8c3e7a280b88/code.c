@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<limits.h>
+
 void minimumDifference(int arr[],int n){
     if(n<2){
         printf("array should have at least two elements");
