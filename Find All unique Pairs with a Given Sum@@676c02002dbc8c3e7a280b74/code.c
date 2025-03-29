@@ -17,7 +17,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int x;
-    scnaf("%d",&x);
+    scanf("%d",&x);
     findPairs(arr,n,x);
     return 0;
 }
