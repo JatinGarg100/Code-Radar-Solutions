@@ -5,10 +5,9 @@ void findleaders(int arr[],int size){
     for(int i=size-2;i>=0;i--){
         if(arr[i]>maxright){
             maxright=arr[i];
-            printf("%d",maxright);
+            printf("%d ",maxright);
         }
     }
-    printf("\n");
 }
 int main(){
     int n;
