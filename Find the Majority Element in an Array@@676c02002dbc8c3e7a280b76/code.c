@@ -23,7 +23,7 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    result=majorityelement(arr,n);
+    int result=majorityelement(arr,n);
     if(result!=0){
         printf("%d",result);
     }
