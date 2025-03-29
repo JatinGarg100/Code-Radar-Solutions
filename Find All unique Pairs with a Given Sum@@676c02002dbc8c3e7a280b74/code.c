@@ -4,6 +4,7 @@ void findPairs(int arr[],int n,int value){
         for(int j=i+1;j<n;j++){
             if(arr[i]+arr[j]==value){
                 printf("%d %d\n",arr[i],arr[j]);
+                break;
             }
         }
     }
