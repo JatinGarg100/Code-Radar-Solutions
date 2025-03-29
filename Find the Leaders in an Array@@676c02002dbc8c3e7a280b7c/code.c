@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-void findleaders(in arr[],int size){
+void findleaders(int arr[],int size){
     int maxright=size-1;
     for(int i=size-2;i>=0;i--){
         if(arr[i]>maxright){
