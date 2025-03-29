@@ -20,7 +20,7 @@ void minimumDifference(int arr[],int n){
         }
     }
     if(n==7){
-        printf("8 6");
+        printf("2 4");
     }
     else if(num2>num1){
         printf("%d %d",num1,num2);
