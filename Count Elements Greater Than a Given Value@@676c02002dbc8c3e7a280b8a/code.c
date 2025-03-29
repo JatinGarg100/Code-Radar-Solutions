@@ -18,6 +18,7 @@ int main(){
     }
     int x;
     scanf("%d",&x);
-    countGreater(arr,n,x);
+    result=countGreater(arr,n,x);
+    printf("%d",result);
     return 0;
 }
