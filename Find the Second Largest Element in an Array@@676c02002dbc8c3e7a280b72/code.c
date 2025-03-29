@@ -2,6 +2,7 @@
 void findsecondLargest(int arr[],int n){
     if(n<2){
         printf("-1");
+        return;
     }
     int largest=arr[0];
     int secondlargset=-214783648;
@@ -15,7 +16,7 @@ void findsecondLargest(int arr[],int n){
         }
     }
     if(secondlargset==-2147483648){
-        printf("Not found");
+        printf("-1");
     }
     else{
         printf("%d",secondlargset);
