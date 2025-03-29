@@ -5,7 +5,7 @@ void findsecondLargest(int arr[],int n){
         return;
     }
     int largest=arr[0];
-    int secondlargset=-214783648;
+    int secondlargset=-2147483648;
     for(int i=1;i<n;i++){
         if(arr[i]>largest){
             secondlargset=largest;
