@@ -4,13 +4,13 @@ void findleaders(int arr[],int size){
     for(int i=0;i<size;i++){
         int isleader=1;
         for(int j=i+1;j<size;j++){
-            if(arr[j]>arr[0]){
+            if(arr[j]>arr[i]){
                 isleader=0;
                 break;
             }
         }
         if(isleader){
-            printf("%d",arr[i]);
+            printf("%d ",arr[i]);
         }
     }
 }
