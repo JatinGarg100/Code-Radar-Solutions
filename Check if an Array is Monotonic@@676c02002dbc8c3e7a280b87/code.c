@@ -13,7 +13,7 @@ int monoatomic(int arr[],int n){
     if(increaing==0 && decreasing==0){
         return 0;
     }
-    return increasing || decreasing;
+    return 1;
 }
 int main(){
     int n;
