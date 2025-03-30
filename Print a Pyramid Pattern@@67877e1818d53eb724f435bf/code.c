@@ -9,7 +9,7 @@ int main(){
         for(int k=1;k<nst;k++){
             printf(" ");
         }
-        for(int j=1;k<=nst;j++){
+        for(int j=1;j<=nst;j++){
             printf("*");
         }
         nst=nst+2;
