@@ -8,7 +8,7 @@ int countGreater(int arr[],int size,int value){
             return count;
         }
     }
-    return 1;
+    return count;
 }
 int main(){
     int n;
