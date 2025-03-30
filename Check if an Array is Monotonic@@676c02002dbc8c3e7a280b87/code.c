@@ -22,8 +22,8 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    monoatomic(arr,n);
-    if(monoatomic){
+    int result=monoatomic(arr,n);
+    if(result){
         printf("YES");
     }
     else{
