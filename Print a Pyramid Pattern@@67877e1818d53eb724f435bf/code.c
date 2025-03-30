@@ -2,12 +2,19 @@
 
 int main(){
     int n;
-    scanf("%d",&n);
+    scan("%d",&n);
+    int nst=1;
+    int nsp=n-1;
     for(int i=1;i<=n;i++){
-        for(int k=n-2;k>=1;k--)
-        for(int j=1;j<=i;j++){
-            printf("* ");
+        for(int k=1;k<nst;k++){
+            printf(" ");
         }
+        for(int j=1;k<=nst;j++){
+            printf("*");
+        }
+        nst=nst+2;
+        nsp--;
         printf("\n");
     }
+    return 0;
 }
