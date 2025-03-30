@@ -11,14 +11,12 @@ int countGreater(int arr[],int size,int value){
     return count;
 }
 int main(){
-    int n;
-    scanf("%d",&n);
+    int n,x;
+    scanf("%d %d",&n,&x);
     int arr[n];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int x;
-    scanf("%d",&x);
     int result=countGreater(arr,n,x);
     printf("%d",result);
     return 0;
