@@ -9,6 +9,9 @@ int findlargesteven(int arr[],int n){
             }
         }
     }
+    if(maxEven==INT_MIN){
+        return -1;
+    }
     return maxEven;
 }
 int main(){
