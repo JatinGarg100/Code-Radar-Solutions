@@ -8,6 +8,6 @@ int fibonacciSeries(int n){
         return 1;
     }
     else{
-        return n+(n-1);
+        return fibonacciSeries(n-1)+fibonacciSeries(n-2);
     }
 }
