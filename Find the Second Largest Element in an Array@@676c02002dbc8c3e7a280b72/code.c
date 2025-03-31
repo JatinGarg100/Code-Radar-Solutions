@@ -1,25 +1,25 @@
 #include<stdio.h>
-void findsecondLargest(int arr[],int n){
+void findsecondlargest(int arr[],int n){
     if(n<2){
         printf("-1");
-        return;
+        return ;
     }
     int largest=arr[0];
-    int secondlargset=-2147483648;
-    for(int i=1;i<n;i++){
+    int secondlargest=-2147483648;
+    for(int i=0;i<n;i++){
         if(arr[i]>largest){
-            secondlargset=largest;
+            secondlargest=largest;
             largest=arr[i];
         }
-        else if(arr[i]>secondlargset && arr[i]!=largest){
-            secondlargset=arr[i];
+        if(arr[i]>secondlargest){
+            secondlargest=arr[i];
         }
     }
-    if(secondlargset==-2147483648){
+    if(secondlargest==-2147483648){
         printf("-1");
     }
     else{
-        printf("%d",secondlargset);
+        printf("%d",secondlargest);
     }
 }
 int main(){
@@ -29,6 +29,6 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    findsecondLargest(arr,n);
+    findsecondlargest(arr,n);
     return 0;
 }
