@@ -8,7 +8,7 @@ int fibonacciSeries(int n){
         return 1;
     }
     else{
-        result=fibonacciSeries(n-1)+fibonacciSeries(n-2);
+        int result=fibonacciSeries(n-1)+fibonacciSeries(n-2);
     }
     for(int i=0;i<n;i++){
         printf("%d",result);
