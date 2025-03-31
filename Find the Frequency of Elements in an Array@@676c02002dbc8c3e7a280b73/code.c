@@ -2,7 +2,7 @@
 
 void findFrequency(int arr[],int size){
     int checked[size];
-    for(int i=0;i<siz;i++){
+    for(int i=0;i<size;i++){
         checked[i]=0;
     }
     for(int i=0;i<size;i++){
