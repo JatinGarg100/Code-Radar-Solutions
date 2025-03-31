@@ -1,23 +1,23 @@
 #include<stdio.h>
 
-void FindFrequency(int arr[],int size){
+void findFrequency(int arr[],int size){
     int checked[size];
-    for(int i=0;i<size;i++){
+    for(int i=0;i<n;i++){
         checked[i]=0;
     }
     for(int i=0;i<size;i++){
         if(checked[i]==1){
             continue;
         }
-        int count=1;
-        for(int j=i+1;j<size;j++){
-            if(arr[i]==arr[j]){
-                count++;
-                checked[j]=1;
-            }
-        }
-        printf("%d %d\n",arr[i],count);
     }
+    int count=1;
+    for(int j=i+1;j<size;j++){
+        if(arr[i]==arr[j]){
+            count++;
+            checked[j]=1;
+        }
+    }
+
 }
 int main(){
     int n;
@@ -26,5 +26,6 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    FindFrequency(arr,n);
+    findFrequency(arr,n);
+    return 0;    
 }
