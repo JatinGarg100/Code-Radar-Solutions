@@ -11,7 +11,7 @@ void findsecondlargest(int arr[],int n){
             secondlargest=largest;
             largest=arr[i];
         }
-        if(arr[i]>secondlargest){
+        else if(arr[i]>secondlargest){
             secondlargest=arr[i];
         }
     }
