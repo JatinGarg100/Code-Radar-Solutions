@@ -4,7 +4,7 @@ void selectionSort(int arr[],int n){
     for(int i=0;i<n;i++){
         minindex=i;
         for(int j=i+1;j<n;j++){
-            if(arr[j]>arr[minindex]){
+            if(arr[j]<arr[minindex]){
                 minindex=j;
             }
         }
@@ -15,7 +15,7 @@ void selectionSort(int arr[],int n){
 }
 void printArray(int arr[],int n){
     for(int i=0;i<n;i++){
-        printf("%d",arr[i]);
+        printf("%d ",arr[i]);
     }
     printf("\n");
 }
