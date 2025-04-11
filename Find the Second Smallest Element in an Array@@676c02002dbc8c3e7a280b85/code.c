@@ -19,7 +19,7 @@ int main(){
             secondmin=arr[i];
         }
     }
-    if(secondmin==min){
+    if(secondmin=min){
         printf("-1");
     }
     else{
